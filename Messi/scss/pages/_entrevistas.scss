@@ -1,0 +1,109 @@
+.contenido__grid__item_2-entrevistas{
+    margin: 0 7rem;
+
+    h1{
+    color: $text-color;
+    font-family: LEMON MILK;
+    font-style: italic;
+    font-weight: 50rem;
+    line-height: normal;
+    display: inline;
+    }
+
+    p{
+    font-size: 1.6rem;
+    }
+  }
+
+  .contenido__grid__item_3-entevistas{
+    margin: 0 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    ;
+  }
+
+  .entrevistas{
+    width: 32.6rem;
+    padding: 1.6rem;
+    gap: 1.2rem;
+    border-radius: 1.2rem;
+    background: rgba(37, 37, 37, 0.60);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-ot;
+    
+
+    &:hover{
+        transform: scale(1.2);
+        padding: 1.2rem;
+        gap: 1.2rem;
+        border-radius: 1.2rem;
+        background: rgba(37, 37, 37, 0.60);
+        transform: scale(1);
+        box-shadow: 0px 0px 100px 30px rgba(255, 199, 0, 0.20);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    iframe{
+        width: 30rem;
+    }
+
+    p{
+        white-space: nowrap;
+        overflow: hidden;
+        white-space: initial;
+    }
+  }
+
+  @media screen and (max-width: 576px){
+    .contenido__grid__item_2-entrevistas{
+      margin: 0 1.6rem;
+  
+      h1{
+      color: $text-color;
+      font-family: LEMON MILK;
+      font-style: italic;
+      font-weight: 50rem;
+      line-height: normal;
+      display: inline;
+      }
+  
+      p{
+      font-size: 1.4rem;
+      }
+    }
+  
+    .contenido__grid__item_3-entevistas{
+      margin: 0 1.6rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.6rem;
+      justify-content: center;
+      align-content: center;
+      ;
+    }
+  
+    .entrevistas{
+      width: 100%;
+      padding: 1.6rem;
+      gap: 1.2rem;
+      border-radius: 0.8rem;
+      background: rgba(37, 37, 37, 0.60);
+      transform: scale(1);
+      transition: transform 0.3s ease-in-ot;
+      
+  
+      iframe{
+          width: 100%;
+          border-radius: 0.3rem;
+      }
+  
+      p{
+          white-space: nowrap;
+          overflow: hidden;
+          white-space: initial;
+      }
+    }
+  }

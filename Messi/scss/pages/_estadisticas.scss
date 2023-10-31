@@ -1,0 +1,76 @@
+.uno-de-fondo{
+    position: absolute;
+    right: 10rem !important;
+    top: 162px;
+    color: #FFF;
+    font-family: LEMON MILK;
+    font-size: 26.037rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    filter: blur(25px);
+  }
+
+.contenido__grid__item_2-estadisticas{
+    display: flex;
+    padding: 0rem 7rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5rem;
+
+    h1{
+        color: #FFF;
+        font-family: LEMON MILK;
+        font-size: 6rem;
+        font-style: italic;
+         font-weight: 50rem;
+        line-height: normal;
+        display: inline;
+      }
+
+      p{
+        font-size: 1.6rem;
+      }
+
+}
+
+.contenido__grid__item_3-estadisticas {
+    margin: 0 7rem;
+    display: flex;
+    width: 100%;
+
+}
+
+  .contenido__grid__item_4-estadisticas{
+    margin: 0 7rem;
+    font-size: 1rem;
+    font-family: inter;
+  }
+
+  .tabla{
+    display: flex;
+    justify-content: center;
+    
+    tbody{
+      background-color: #FFF;
+      color: $background-color;
+      padding: 2.4rem;
+      border-radius: 1.2rem;
+      th{
+          background-color: $sec-color;
+          padding: 0rem 0.8rem;
+          
+        }
+        a{
+          text-decoration: none;
+          color: $background-color;
+        }
+      
+        .totalcarrera{
+          background-color: $acent-color;
+          color: $text-color;
+          font-weight: bold;
+          background: $acent-color;
+        }
+  }
+}

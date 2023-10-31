@@ -1,0 +1,73 @@
+.contenido__grid__item_2-biografia{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 7rem;
+        gap: 2.4rem;
+        align-self: stretch;
+        align-content: center;
+        align-items: center;
+        height: fit-content;
+
+    h1{
+        color: $text-color;
+        font-family: LEMON MILK;
+        font-size: 6rem;
+        font-style: italic;
+        font-weight: 50rem;
+        line-height: normal;    
+    }
+
+    img{
+    max-width: 80rem;
+    border-radius: 1.2rem;
+    }
+
+    p{
+    align-self: stretch;
+    color: #FFF;
+    font-family: Lexend, Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .contenido__grid__item_2-biografia{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 1.6rem;
+        gap: 1.6rem;
+        align-self: stretch;
+        align-content: center;
+        align-items: center;
+        height: fit-content;
+
+    h1{
+        color: $text-color;
+        font-family: LEMON MILK;
+        font-size: 4rem;
+        font-style: italic;
+        font-weight: 50rem;
+        line-height: normal;    
+    }
+
+    img{
+    max-width: 100%;
+    border-radius: 0.8rem;
+    margin: 1.2rem 0rem;
+    align-self: auto;
+    }
+
+    p{
+    align-self: stretch;
+    color: #FFF;
+    font-family: Lexend, Inter;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+}
+}

@@ -1,0 +1,148 @@
+nav{
+    background-color: #000;
+    a{
+    text-decoration: none;
+    color: $text-color;
+    }
+}
+
+footer{
+    display: flex;
+    padding: 7rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.5rem;
+    align-self: stretch;
+    background: #000;
+  }
+
+  .sun{
+    height: 4.8rem;
+    margin: 1.6rem;  
+  }
+
+  .bloque__seccion{
+    min-height: 60rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    align-self: stretch;
+    border-radius: 0.8rem;
+    background: radial-gradient(33.09% 16.73% at 14.52% 43.64%, rgba(255, 199, 0, 0.20) 0%, rgba(12, 12, 31, 0.20) 100%), rgba(62, 62, 62, 0.20);
+   
+    h3{
+      color: #FFF;
+      font-family: LEMON MILK;
+      font-size: 2rem;
+      font-style: italic;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    
+    p{
+      color: $text-color;
+      font-family: Lexend, Inter;
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;  
+    }
+
+    a{
+      color: $acent-color;
+      font-family: Lexend, Inter;
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration: none;
+      :hover{
+        color: $text-color;
+      }
+    }
+    .copa {
+      height: 33.4rem;
+      transform: rotate(6.614deg);
+    }
+
+    .mapa{
+      display: flex;
+      height: 33.4rem;
+      padding-bottom: 0px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .messientrevista{
+      height: 25.9rem;
+      border-radius: 17px;       
+    }
+
+
+
+}
+
+  .bloque__seccion-redes{
+    display: flex;
+    min-height: 50rem;
+    padding: 1.875rem 3.125rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: radial-gradient(49.2% 26.94% at 19.62% 47.2%, rgba(255, 199, 0, 0.20) 0%, rgba(12, 12, 31, 0.20) 100%), rgba(62, 62, 62, 0.20);
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    transform: scale(1);
+    transition: transform 300ms ease-out;
+    text-align: center;
+
+    &:hover{
+        transform: scale(1.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.875rem;
+    }
+
+    img{
+      width: 30rem;
+    }
+  }
+
+  @media screen and (max-width:576px) {
+    footer{
+      display: flex;
+      padding: 1.6rem 0rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 1.6rem;
+      align-self: stretch;
+      background: #000;
+
+      p{
+        font-size: 1.2rem;
+        white-space: nowrap;
+        overflow: hidden;
+        white-space: initial;
+      }
+    }
+
+  }

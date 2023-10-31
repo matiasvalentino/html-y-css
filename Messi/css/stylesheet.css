@@ -95,8 +95,8 @@ a {
         height: 675px;
       }
     .star{
-      width: 18.004px;
-      height: 18.004px;
+      width: 1.8rem;
+      height: 1.8rem;
     }
 
     .star__container{
@@ -373,7 +373,7 @@ a {
 .grid__item-4{
   grid-area: 4 / 1 / 5 / 13;
 }
-contenido__grid__item-4{ 
+  contenido__grid__item-4{ 
   height: fit-content;
 }
 
