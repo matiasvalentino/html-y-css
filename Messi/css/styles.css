@@ -215,7 +215,7 @@ footer {
   margin-bottom: -5em;
 }
 .contenido__grid__item_2-inicio h1 {
-  color: #FFF;
+  color: #fff;
   margin: 0 auto;
   font-family: LEMON MILK;
   font-size: 12rem;
@@ -224,7 +224,7 @@ footer {
   line-height: normal;
 }
 .contenido__grid__item_2-inicio p {
-  color: #FFF;
+  color: #fff;
   font-family: Lexend, Inter;
   font-size: 2rem;
   font-style: normal;
@@ -257,7 +257,7 @@ footer {
   height: fit-content;
 }
 .proximopartido p {
-  color: #FFF;
+  color: #fff;
   font-family: LEMON MILK;
   font-size: 8rem;
   font-style: italic;
@@ -266,7 +266,7 @@ footer {
   display: inline;
 }
 .proximopartido h2 {
-  color: #FFF;
+  color: #fff;
   font-family: Lexend, Inter;
   font-size: 2.2rem;
   font-style: normal;
@@ -546,7 +546,7 @@ footer {
   position: absolute;
   right: 10rem !important;
   top: 162px;
-  color: #FFF;
+  color: #fff;
   font-family: LEMON MILK;
   font-size: 26.037rem;
   font-style: italic;
@@ -563,7 +563,7 @@ footer {
   gap: 5rem;
 }
 .contenido__grid__item_2-estadisticas h1 {
-  color: #FFF;
+  color: #fff;
   font-family: LEMON MILK;
   font-size: 6rem;
   font-style: italic;
@@ -730,7 +730,7 @@ footer {
 }
 .contenido__grid__item_2-biografia p {
   align-self: stretch;
-  color: #FFF;
+  color: #fff;
   font-family: Lexend, Inter;
   font-size: 1.6rem;
   font-style: normal;
@@ -765,7 +765,7 @@ footer {
   }
   .contenido__grid__item_2-biografia p {
     align-self: stretch;
-    color: #FFF;
+    color: #fff;
     font-family: Lexend, Inter;
     font-size: 1.4rem;
     font-style: normal;

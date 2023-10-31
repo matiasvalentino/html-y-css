@@ -10,7 +10,7 @@
     margin-bottom: -5em;
 
     h1{
-        color: #FFF;
+        color: $text-color;
         margin: 0 auto;
         font-family: LEMON MILK;
         font-size: 12rem;
@@ -20,7 +20,7 @@
       }
 
     p {
-        color: #FFF;
+        color: $text-color;
         font-family: Lexend, Inter;
         font-size: 2rem;
         font-style: normal;
@@ -34,7 +34,7 @@
       }
 
       a{
-      color: #75AADB;
+      color: $acent-color;
       font-family: Lexend, Inter;
       font-size: 2rem;
       font-style: normal;
@@ -44,7 +44,7 @@
     }
 
 .proximopartido{
-  background-color: #75AADB;
+  background-color: $acent-color;
   /* margin: 0px 7rem; */
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +56,7 @@
   height: fit-content;
 
     p{
-      color: #FFF;
+      color: $text-color;
       font-family: LEMON MILK;
       font-size: 8rem;
       font-style: italic;
@@ -66,7 +66,7 @@
     }
 
   h2{
-      color: #FFF;
+      color: $text-color;
       font-family: Lexend, Inter;
       font-size: 2.2rem;
       font-style: normal;
