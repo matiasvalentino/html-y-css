@@ -20,6 +20,7 @@
     img{
     max-width: 80rem;
     border-radius: 1.2rem;
+    margin-bottom: 2.5rem;
     }
 
     p{
@@ -32,7 +33,39 @@
     line-height: normal;
     }
 }
+.cita{
+    background-color: #ffffff25;
+    padding: 1.0rem;
+    border-radius: 1.2rem;
+    border-left: 0.5rem solid $acent-color;
+    margin-bottom: 2.4rem;
 
+
+    p{
+        font-style: italic;
+    }
+}
+.continuara{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+
+    .loading{
+        width: 4.8rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0rem;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
+    }
+}
 @media screen and (max-width:576px) {
     .contenido__grid__item_2-biografia{
         display: flex;
@@ -68,6 +101,28 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    }
+}
+
+.continuara{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+
+    .loading{
+        width: 3.6rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0rem;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem;
     }
 }
 }
